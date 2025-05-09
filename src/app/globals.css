@@ -1,0 +1,21 @@
+@import "flowbite/src/themes/default";
+@import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../../.flowbite-react/class-list.json";
+@import "flowbite-react/plugin/tailwindcss";
+
+/* Add any custom styles below */
+header {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}

@@ -1,8 +1,7 @@
-@import "flowbite/src/themes/default";
-@import "tailwindcss";
-@plugin "flowbite-react/plugin/tailwindcss";
-@source "../../.flowbite-react/class-list.json";
-@import "flowbite-react/plugin/tailwindcss";
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "flowbite";
 
 /* Add any custom styles below */
 header {

@@ -5,4 +5,4 @@ const nextConfig: NextConfig = {
   /* config options here */
 };
 
-export default withFlowbiteReact(nextConfig);
+export default nextConfig;
